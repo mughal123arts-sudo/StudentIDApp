@@ -213,3 +213,46 @@ font-size:28px;
 }
 
 }
+.guide-section{
+    background:#eef8fb;
+    padding:70px 20px;
+    text-align:center;
+}
+
+.guide-section h2{
+    font-size:48px;
+    color:#0b4b9c;
+    margin-bottom:15px;
+}
+
+.guide-text{
+    font-size:22px;
+    color:#444;
+    margin-bottom:50px;
+}
+
+.guide-container{
+    max-width:900px;
+    margin:auto;
+}
+
+.guide-item{
+    background:#ffffff;
+    border-radius:18px;
+    padding:20px;
+    margin-bottom:45px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.guide-item h3{
+    color:#0b4b9c;
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+.guide-item img{
+    width:100%;
+    height:auto;
+    border-radius:15px;
+    display:block;
+}
