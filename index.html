@@ -44,17 +44,32 @@ WhatsApp Support
 <section class="screenshots">
 
 <h2>Application Guide</h2>
-<p>Follow these simple steps to start using the app.</p>
 
-<div class="slider">
+<p>
+Follow the step-by-step guide below to learn how to use the application.
+</p>
 
-<img id="slide"
-src="WhatsApp Image 2026-08-03 at 12.40.10 AM (1).jpeg">
+<div class="slider-container">
+
+<button class="nav-btn" onclick="previousSlide()">❮</button>
+
+<img id="slide" src="guide1.png">
+
+<button class="nav-btn" onclick="nextSlide()">❯</button>
+
+</div>
+
+<div class="guide-controls">
+
+<span id="stepCounter">Step 1 of 11</span>
+
+<button onclick="toggleAutoSlide()" id="autoBtn">
+Pause Auto Slide
+</button>
 
 </div>
 
 </section>
-
 <section class="features">
 
 <h2>Features</h2>
